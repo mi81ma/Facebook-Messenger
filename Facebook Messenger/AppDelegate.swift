@@ -23,6 +23,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let friendsController = FriendsController(collectionViewLayout: layout)
         window?.rootViewController = UINavigationController(rootViewController: friendsController)
         // Override point for customization after application launch.
+
+        
+
         return true
     }
 
